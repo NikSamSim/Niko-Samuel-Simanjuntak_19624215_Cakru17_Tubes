@@ -42,3 +42,4 @@ Komponen utama sistem:
 - Lakukan tuning PID pada plugin untuk mendapatkan performa optimal.
 
 ## 3. Video Simulasi Robot
+https://drive.google.com/file/d/1TwGBIS2FJBs602T9OQtgT7j7jkvpPfHV/view?usp=sharing
