@@ -1,0 +1,132 @@
+[0.018s] Invoking command in '/home/nikosamuel__/tubes1_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikosamuel__/tubes1_ws/build/my_first_pkg -- -j20 -l20
+[0.072s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.229s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.268s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.527s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.538s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.557s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.721s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.225s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.310s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.331s] -- Looking for pthread.h
+[7.742s] -- Looking for pthread.h - found
+[7.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.007s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.009s] -- Found Threads: TRUE  
+[8.146s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.147s] -- Checking for module 'bullet>=2.82'
+[8.159s] --   Found bullet, version 3.05
+[8.329s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[8.381s] -- Found assimp: /usr/include (found version "5.2.0") 
+[8.418s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[8.462s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[9.109s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[9.119s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.136s] -- Searching for dependencies of ignition-math6
+[9.143s] -- Looking for OGRE...
+[9.144s] -- OGRE_PREFIX_WATCH changed.
+[9.151s] -- Checking for module 'OGRE'
+[9.164s] --   Found OGRE, version 1.9.0
+[9.197s] -- Found Ogre Ghadamon (1.9.0)
+[10.180s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[10.194s] -- Looking for OGRE_Paging...
+[11.063s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[11.063s] -- Looking for OGRE_Terrain...
+[11.296s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[11.296s] -- Looking for OGRE_Property...
+[11.531s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[11.531s] -- Looking for OGRE_RTShaderSystem...
+[11.783s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[11.784s] -- Looking for OGRE_Volume...
+[12.020s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[12.020s] -- Looking for OGRE_Overlay...
+[12.260s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[29.330s] -- Looking for ignition-math6 -- found version 6.15.1
+[29.344s] -- Looking for ignition-transport8 -- found version 8.2.1
+[29.346s] -- Searching for dependencies of ignition-transport8
+[31.443s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[32.758s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[32.766s] -- Checking for module 'libzmq >= 4'
+[32.785s] --   Found libzmq , version 4.3.4
+[32.814s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[32.896s] -- Checking for module 'uuid'
+[32.909s] --   Found uuid, version 2.37.2
+[32.935s] -- Found UUID: TRUE  
+[32.941s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[32.942s] -- Searching for dependencies of ignition-msgs5
+[35.968s] -- Looking for ignition-math6 -- found version 6.15.1
+[35.976s] -- Checking for module 'tinyxml2'
+[35.989s] --   Found tinyxml2, version 9.0.0
+[36.020s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[36.022s] -- Looking for ignition-common3 -- found version 3.14.0
+[36.023s] -- Searching for dependencies of ignition-common3
+[36.061s] -- Looking for dlfcn.h - found
+[36.085s] -- Looking for libdl - found
+[36.086s] -- Found DL: TRUE  
+[36.148s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[36.150s] -- Searching for <ignition-common3> component [graphics]
+[36.153s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[36.154s] -- Searching for dependencies of ignition-common3-graphics
+[36.155s] -- Looking for ignition-math6 -- found version 6.15.1
+[36.162s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[36.163s] -- Searching for dependencies of ignition-fuel_tools4
+[37.522s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[37.538s] -- Checking for module 'jsoncpp'
+[37.553s] --   Found jsoncpp, version 1.9.5
+[37.587s] -- Found JSONCPP: TRUE  
+[37.599s] -- Checking for module 'libzip'
+[37.612s] --   Found libzip, version 1.7.3
+[37.644s] -- Found ZIP: TRUE  
+[37.644s] -- Looking for ignition-common3 -- found version 3.14.0
+[37.645s] -- Looking for ignition-math6 -- found version 6.15.1
+[37.645s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[37.655s] -- Gazebo version: 11.10
+[37.655s] -- Checking for module 'tbb'
+[37.669s] --   Found tbb, version 2021.5.0
+[37.704s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[37.739s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[37.905s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.905s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nikosamuel__/tubes1_ws/src/my_first_pkg/include>
+[37.905s] -- Configured cppcheck exclude dirs and/or files: 
+[37.906s] -- Added test 'flake8' to check Python code syntax and style conventions
+[37.907s] -- Added test 'lint_cmake' to check CMake code style
+[37.908s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[37.909s] -- Added test 'uncrustify' to check C / C++ code style
+[37.909s] -- Configured uncrustify additional arguments: 
+[37.909s] -- Added test 'xmllint' to check XML markup files
+[37.911s] -- Configuring done
+[37.927s] -- Generating done
+[37.933s] -- Build files have been written to: /home/nikosamuel__/tubes1_ws/build/my_first_pkg
+[37.994s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[38.010s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[38.108s] [100%] [32m[1mLinking CXX executable my_node[0m
+[38.222s] [100%] Built target my_node
+[38.233s] Invoked command in '/home/nikosamuel__/tubes1_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikosamuel__/tubes1_ws/build/my_first_pkg -- -j20 -l20
+[38.244s] Invoking command in '/home/nikosamuel__/tubes1_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikosamuel__/tubes1_ws/build/my_first_pkg
+[38.250s] -- Install configuration: ""
+[38.251s] -- Execute custom install script
+[38.252s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/lib/my_first_pkg/my_node
+[38.253s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[38.254s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[38.255s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[38.256s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[38.257s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[38.258s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[38.259s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[38.260s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[38.261s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[38.261s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[38.262s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[38.262s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[38.263s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[38.263s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[38.264s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[38.274s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[38.274s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[38.275s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[38.275s] -- Up-to-date symlink: /home/nikosamuel__/tubes1_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[38.278s] Invoked command in '/home/nikosamuel__/tubes1_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikosamuel__/tubes1_ws/build/my_first_pkg

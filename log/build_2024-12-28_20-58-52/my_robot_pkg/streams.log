@@ -1,0 +1,146 @@
+[0.018s] Invoking command in '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikosamuel__/tubes1_ws/src/my_robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikosamuel__/tubes1_ws/install/my_robot_pkg
+[0.265s] -- The C compiler identification is GNU 11.4.0
+[0.980s] -- The CXX compiler identification is GNU 11.4.0
+[1.429s] -- Detecting C compiler ABI info
+[1.618s] -- Detecting C compiler ABI info - done
+[1.626s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.629s] -- Detecting C compile features
+[1.631s] -- Detecting C compile features - done
+[1.638s] -- Detecting CXX compiler ABI info
+[1.980s] -- Detecting CXX compiler ABI info - done
+[1.988s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.988s] -- Detecting CXX compile features
+[1.989s] -- Detecting CXX compile features - done
+[1.995s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.231s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.395s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.717s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.726s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.745s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.901s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.908s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.126s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.984s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.329s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.345s] -- Looking for pthread.h
+[10.512s] -- Looking for pthread.h - found
+[10.512s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.672s] -- Found Threads: TRUE  
+[10.761s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[10.762s] -- Checking for module 'bullet>=2.82'
+[10.772s] --   Found bullet, version 3.05
+[10.922s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[10.973s] -- Found assimp: /usr/include (found version "5.2.0") 
+[11.004s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[11.041s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[11.603s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[11.610s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.622s] -- Searching for dependencies of ignition-math6
+[11.626s] -- Looking for OGRE...
+[11.627s] -- OGRE_PREFIX_WATCH changed.
+[11.632s] -- Checking for module 'OGRE'
+[11.643s] --   Found OGRE, version 1.9.0
+[11.671s] -- Found Ogre Ghadamon (1.9.0)
+[12.408s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[12.420s] -- Looking for OGRE_Paging...
+[13.241s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[13.242s] -- Looking for OGRE_Terrain...
+[13.768s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[13.769s] -- Looking for OGRE_Property...
+[14.560s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[14.560s] -- Looking for OGRE_RTShaderSystem...
+[15.138s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[15.138s] -- Looking for OGRE_Volume...
+[15.636s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[15.636s] -- Looking for OGRE_Overlay...
+[16.241s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[52.551s] -- Looking for ignition-math6 -- found version 6.15.1
+[52.562s] -- Looking for ignition-transport8 -- found version 8.2.1
+[52.562s] -- Searching for dependencies of ignition-transport8
+[54.011s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[55.641s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[55.650s] -- Checking for module 'libzmq >= 4'
+[55.671s] --   Found libzmq , version 4.3.4
+[55.701s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[55.828s] -- Checking for module 'uuid'
+[55.841s] --   Found uuid, version 2.37.2
+[55.865s] -- Found UUID: TRUE  
+[55.870s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[55.871s] -- Searching for dependencies of ignition-msgs5
+[57.557s] -- Looking for ignition-math6 -- found version 6.15.1
+[57.563s] -- Checking for module 'tinyxml2'
+[57.576s] --   Found tinyxml2, version 9.0.0
+[57.607s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[57.610s] -- Looking for ignition-common3 -- found version 3.14.0
+[57.610s] -- Searching for dependencies of ignition-common3
+[57.711s] -- Looking for dlfcn.h - found
+[57.807s] -- Looking for libdl - found
+[57.808s] -- Found DL: TRUE  
+[58.017s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[58.018s] -- Searching for <ignition-common3> component [graphics]
+[58.023s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[58.024s] -- Searching for dependencies of ignition-common3-graphics
+[58.025s] -- Looking for ignition-math6 -- found version 6.15.1
+[58.030s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[58.032s] -- Searching for dependencies of ignition-fuel_tools4
+[61.732s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[61.747s] -- Checking for module 'jsoncpp'
+[61.760s] --   Found jsoncpp, version 1.9.5
+[61.786s] -- Found JSONCPP: TRUE  
+[61.794s] -- Checking for module 'libzip'
+[61.805s] --   Found libzip, version 1.7.3
+[61.832s] -- Found ZIP: TRUE  
+[61.832s] -- Looking for ignition-common3 -- found version 3.14.0
+[61.833s] -- Looking for ignition-math6 -- found version 6.15.1
+[61.834s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[61.841s] -- Gazebo version: 11.10
+[61.842s] -- Checking for module 'tbb'
+[61.853s] --   Found tbb, version 2021.5.0
+[61.884s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[61.909s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[62.049s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[62.049s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nikosamuel__/tubes1_ws/src/my_robot_pkg/include>
+[62.050s] -- Configured cppcheck exclude dirs and/or files: 
+[62.051s] -- Added test 'flake8' to check Python code syntax and style conventions
+[62.052s] -- Added test 'lint_cmake' to check CMake code style
+[62.053s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[62.054s] -- Added test 'uncrustify' to check C / C++ code style
+[62.054s] -- Configured uncrustify additional arguments: 
+[62.055s] -- Added test 'xmllint' to check XML markup files
+[62.058s] -- Configuring done
+[62.065s] -- Generating done
+[62.070s] -- Build files have been written to: /home/nikosamuel__/tubes1_ws/build/my_robot_pkg
+[62.089s] Invoked command in '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikosamuel__/tubes1_ws/src/my_robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikosamuel__/tubes1_ws/install/my_robot_pkg
+[62.092s] Invoking command in '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikosamuel__/tubes1_ws/build/my_robot_pkg -- -j20 -l20
+[62.151s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[62.238s] [100%] [32m[1mLinking CXX executable my_node[0m
+[62.393s] [100%] Built target my_node
+[62.402s] Invoked command in '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikosamuel__/tubes1_ws/build/my_robot_pkg -- -j20 -l20
+[62.411s] Invoking command in '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikosamuel__/tubes1_ws/build/my_robot_pkg
+[62.417s] -- Install configuration: ""
+[62.418s] -- Execute custom install script
+[62.420s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/lib/my_robot_pkg/my_node
+[62.428s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//launch/display.launch.py
+[62.436s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//launch/gazebo.launch.py
+[62.444s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//urdf/my_robot.urdf
+[62.452s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//rviz/config.rviz
+[62.461s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg
+[62.468s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg
+[62.476s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh
+[62.483s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv
+[62.490s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh
+[62.497s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv
+[62.504s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash
+[62.511s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh
+[62.518s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh
+[62.524s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv
+[62.532s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv
+[62.539s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg
+[62.547s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake
+[62.554s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake
+[62.561s] -- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml
+[62.570s] Invoked command in '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikosamuel__/tubes1_ws/build/my_robot_pkg

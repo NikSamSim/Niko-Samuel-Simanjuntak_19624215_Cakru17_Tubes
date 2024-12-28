@@ -1,0 +1,1 @@
+/home/nikosamuel__/tubes1_ws/build/my_robot_pkg/ament_cmake_core/my_robot_pkgConfig-version.cmake
