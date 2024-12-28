@@ -1,0 +1,777 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (my_robot_pkg) JobQueued: {'identifier': 'my_robot_pkg', 'dependencies': OrderedDict()}
+[0.000244] (my_robot_pkg) JobStarted: {'identifier': 'my_robot_pkg'}
+[0.014322] (my_robot_pkg) JobProgress: {'identifier': 'my_robot_pkg', 'progress': 'cmake'}
+[0.015482] (my_robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/nikosamuel__/tubes1_ws/src/my_robot_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nikosamuel__/tubes1_ws/install/my_robot_pkg'], 'cwd': '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikosamuel__'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nikosamuel__'), ('OLDPWD', '/home/nikosamuel__'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikosamuel__'), ('NAME', 'LAPTOP-R96DR2VN'), ('WSL_INTEROP', '/run/WSL/2433_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Niko Samuel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Niko Samuel/AppData/Local/Muse Hub/lib:/mnt/c/Program Files (x86)/Nmap:/snap/bin:/usr/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098841] (-) TimerEvent: {}
+[0.199170] (-) TimerEvent: {}
+[0.265438] (my_robot_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299287] (-) TimerEvent: {}
+[0.399677] (-) TimerEvent: {}
+[0.500029] (-) TimerEvent: {}
+[0.600386] (-) TimerEvent: {}
+[0.700732] (-) TimerEvent: {}
+[0.801115] (-) TimerEvent: {}
+[0.901428] (-) TimerEvent: {}
+[0.980390] (my_robot_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.001541] (-) TimerEvent: {}
+[1.101895] (-) TimerEvent: {}
+[1.202313] (-) TimerEvent: {}
+[1.302662] (-) TimerEvent: {}
+[1.403000] (-) TimerEvent: {}
+[1.429307] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.503111] (-) TimerEvent: {}
+[1.603543] (-) TimerEvent: {}
+[1.618271] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.626588] (my_robot_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.629455] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.631075] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.638185] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.703745] (-) TimerEvent: {}
+[1.804245] (-) TimerEvent: {}
+[1.904758] (-) TimerEvent: {}
+[1.980000] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.988161] (my_robot_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.988416] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.989042] (my_robot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.995404] (my_robot_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.004888] (-) TimerEvent: {}
+[2.105254] (-) TimerEvent: {}
+[2.205699] (-) TimerEvent: {}
+[2.231528] (my_robot_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.305887] (-) TimerEvent: {}
+[2.330842] (my_robot_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.395526] (my_robot_pkg) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.406062] (-) TimerEvent: {}
+[2.506481] (-) TimerEvent: {}
+[2.606963] (-) TimerEvent: {}
+[2.707495] (-) TimerEvent: {}
+[2.717208] (my_robot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.726289] (my_robot_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.745474] (my_robot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.772750] (my_robot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.805971] (my_robot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.807599] (-) TimerEvent: {}
+[2.901331] (my_robot_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.907739] (my_robot_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.907939] (-) TimerEvent: {}
+[3.008346] (-) TimerEvent: {}
+[3.108786] (-) TimerEvent: {}
+[3.209311] (-) TimerEvent: {}
+[3.309790] (-) TimerEvent: {}
+[3.410250] (-) TimerEvent: {}
+[3.510834] (-) TimerEvent: {}
+[3.611324] (-) TimerEvent: {}
+[3.711762] (-) TimerEvent: {}
+[3.812230] (-) TimerEvent: {}
+[3.912649] (-) TimerEvent: {}
+[4.013132] (-) TimerEvent: {}
+[4.113556] (-) TimerEvent: {}
+[4.214098] (-) TimerEvent: {}
+[4.314677] (-) TimerEvent: {}
+[4.415071] (-) TimerEvent: {}
+[4.515467] (-) TimerEvent: {}
+[4.615990] (-) TimerEvent: {}
+[4.716385] (-) TimerEvent: {}
+[4.816763] (-) TimerEvent: {}
+[4.917159] (-) TimerEvent: {}
+[5.017579] (-) TimerEvent: {}
+[5.118038] (-) TimerEvent: {}
+[5.126596] (my_robot_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.218167] (-) TimerEvent: {}
+[5.318566] (-) TimerEvent: {}
+[5.418968] (-) TimerEvent: {}
+[5.519365] (-) TimerEvent: {}
+[5.619751] (-) TimerEvent: {}
+[5.720155] (-) TimerEvent: {}
+[5.820606] (-) TimerEvent: {}
+[5.921037] (-) TimerEvent: {}
+[6.021465] (-) TimerEvent: {}
+[6.121872] (-) TimerEvent: {}
+[6.222279] (-) TimerEvent: {}
+[6.322694] (-) TimerEvent: {}
+[6.423125] (-) TimerEvent: {}
+[6.523526] (-) TimerEvent: {}
+[6.623865] (-) TimerEvent: {}
+[6.724199] (-) TimerEvent: {}
+[6.824517] (-) TimerEvent: {}
+[6.924829] (-) TimerEvent: {}
+[6.984143] (my_robot_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.024938] (-) TimerEvent: {}
+[7.125306] (-) TimerEvent: {}
+[7.225648] (-) TimerEvent: {}
+[7.325966] (-) TimerEvent: {}
+[7.426285] (-) TimerEvent: {}
+[7.526582] (-) TimerEvent: {}
+[7.626911] (-) TimerEvent: {}
+[7.727225] (-) TimerEvent: {}
+[7.827560] (-) TimerEvent: {}
+[7.927927] (-) TimerEvent: {}
+[8.028201] (-) TimerEvent: {}
+[8.128539] (-) TimerEvent: {}
+[8.228937] (-) TimerEvent: {}
+[8.329267] (-) TimerEvent: {}
+[8.429685] (-) TimerEvent: {}
+[8.529995] (-) TimerEvent: {}
+[8.630300] (-) TimerEvent: {}
+[8.730646] (-) TimerEvent: {}
+[8.830999] (-) TimerEvent: {}
+[8.931313] (-) TimerEvent: {}
+[9.031680] (-) TimerEvent: {}
+[9.131994] (-) TimerEvent: {}
+[9.232313] (-) TimerEvent: {}
+[9.332666] (-) TimerEvent: {}
+[9.432956] (-) TimerEvent: {}
+[9.533290] (-) TimerEvent: {}
+[9.633626] (-) TimerEvent: {}
+[9.733985] (-) TimerEvent: {}
+[9.834265] (-) TimerEvent: {}
+[9.934735] (-) TimerEvent: {}
+[10.035068] (-) TimerEvent: {}
+[10.135390] (-) TimerEvent: {}
+[10.235720] (-) TimerEvent: {}
+[10.329572] (my_robot_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.335855] (-) TimerEvent: {}
+[10.345081] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.435960] (-) TimerEvent: {}
+[10.512286] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.512640] (my_robot_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.536070] (-) TimerEvent: {}
+[10.636423] (-) TimerEvent: {}
+[10.670992] (my_robot_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.672090] (my_robot_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.736686] (-) TimerEvent: {}
+[10.760743] (my_robot_pkg) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[10.762541] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[10.771915] (my_robot_pkg) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[10.836831] (-) TimerEvent: {}
+[10.922443] (my_robot_pkg) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[10.937551] (-) TimerEvent: {}
+[10.973557] (my_robot_pkg) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[11.004168] (my_robot_pkg) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[11.037682] (-) TimerEvent: {}
+[11.041161] (my_robot_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[11.137875] (-) TimerEvent: {}
+[11.238282] (-) TimerEvent: {}
+[11.338744] (-) TimerEvent: {}
+[11.439149] (-) TimerEvent: {}
+[11.539563] (-) TimerEvent: {}
+[11.603122] (my_robot_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[11.609938] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.622576] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[11.626433] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[11.627049] (my_robot_pkg) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[11.632180] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[11.639961] (-) TimerEvent: {}
+[11.642905] (my_robot_pkg) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[11.671092] (my_robot_pkg) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[11.740107] (-) TimerEvent: {}
+[11.840491] (-) TimerEvent: {}
+[11.940904] (-) TimerEvent: {}
+[12.041305] (-) TimerEvent: {}
+[12.141705] (-) TimerEvent: {}
+[12.242209] (-) TimerEvent: {}
+[12.342653] (-) TimerEvent: {}
+[12.407645] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[12.419702] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[12.442821] (-) TimerEvent: {}
+[12.543194] (-) TimerEvent: {}
+[12.643643] (-) TimerEvent: {}
+[12.744064] (-) TimerEvent: {}
+[12.844500] (-) TimerEvent: {}
+[12.944923] (-) TimerEvent: {}
+[13.045360] (-) TimerEvent: {}
+[13.145759] (-) TimerEvent: {}
+[13.241387] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[13.241749] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[13.245872] (-) TimerEvent: {}
+[13.346248] (-) TimerEvent: {}
+[13.446680] (-) TimerEvent: {}
+[13.547098] (-) TimerEvent: {}
+[13.647482] (-) TimerEvent: {}
+[13.747888] (-) TimerEvent: {}
+[13.768403] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[13.768726] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[13.848079] (-) TimerEvent: {}
+[13.948461] (-) TimerEvent: {}
+[14.048997] (-) TimerEvent: {}
+[14.149700] (-) TimerEvent: {}
+[14.250253] (-) TimerEvent: {}
+[14.350660] (-) TimerEvent: {}
+[14.451109] (-) TimerEvent: {}
+[14.551514] (-) TimerEvent: {}
+[14.559949] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[14.560265] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[14.651619] (-) TimerEvent: {}
+[14.751902] (-) TimerEvent: {}
+[14.852271] (-) TimerEvent: {}
+[14.952602] (-) TimerEvent: {}
+[15.052933] (-) TimerEvent: {}
+[15.138221] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[15.138579] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[15.153051] (-) TimerEvent: {}
+[15.253457] (-) TimerEvent: {}
+[15.353784] (-) TimerEvent: {}
+[15.454220] (-) TimerEvent: {}
+[15.554504] (-) TimerEvent: {}
+[15.636283] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[15.636577] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[15.654681] (-) TimerEvent: {}
+[15.755009] (-) TimerEvent: {}
+[15.855564] (-) TimerEvent: {}
+[15.955895] (-) TimerEvent: {}
+[16.056197] (-) TimerEvent: {}
+[16.156478] (-) TimerEvent: {}
+[16.240791] (my_robot_pkg) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[16.256595] (-) TimerEvent: {}
+[16.356862] (-) TimerEvent: {}
+[16.457180] (-) TimerEvent: {}
+[16.557460] (-) TimerEvent: {}
+[16.657762] (-) TimerEvent: {}
+[16.758082] (-) TimerEvent: {}
+[16.858399] (-) TimerEvent: {}
+[16.958727] (-) TimerEvent: {}
+[17.059040] (-) TimerEvent: {}
+[17.159351] (-) TimerEvent: {}
+[17.259683] (-) TimerEvent: {}
+[17.360055] (-) TimerEvent: {}
+[17.460345] (-) TimerEvent: {}
+[17.560656] (-) TimerEvent: {}
+[17.661023] (-) TimerEvent: {}
+[17.761402] (-) TimerEvent: {}
+[17.861737] (-) TimerEvent: {}
+[17.962227] (-) TimerEvent: {}
+[18.062601] (-) TimerEvent: {}
+[18.163008] (-) TimerEvent: {}
+[18.263407] (-) TimerEvent: {}
+[18.363981] (-) TimerEvent: {}
+[18.464417] (-) TimerEvent: {}
+[18.564816] (-) TimerEvent: {}
+[18.665159] (-) TimerEvent: {}
+[18.765564] (-) TimerEvent: {}
+[18.865999] (-) TimerEvent: {}
+[18.966388] (-) TimerEvent: {}
+[19.066788] (-) TimerEvent: {}
+[19.167203] (-) TimerEvent: {}
+[19.267584] (-) TimerEvent: {}
+[19.367985] (-) TimerEvent: {}
+[19.468383] (-) TimerEvent: {}
+[19.568811] (-) TimerEvent: {}
+[19.669217] (-) TimerEvent: {}
+[19.769705] (-) TimerEvent: {}
+[19.870112] (-) TimerEvent: {}
+[19.970485] (-) TimerEvent: {}
+[20.070927] (-) TimerEvent: {}
+[20.171347] (-) TimerEvent: {}
+[20.271719] (-) TimerEvent: {}
+[20.372109] (-) TimerEvent: {}
+[20.472520] (-) TimerEvent: {}
+[20.573013] (-) TimerEvent: {}
+[20.673536] (-) TimerEvent: {}
+[20.773956] (-) TimerEvent: {}
+[20.874371] (-) TimerEvent: {}
+[20.974770] (-) TimerEvent: {}
+[21.075173] (-) TimerEvent: {}
+[21.175630] (-) TimerEvent: {}
+[21.276036] (-) TimerEvent: {}
+[21.376495] (-) TimerEvent: {}
+[21.476982] (-) TimerEvent: {}
+[21.577577] (-) TimerEvent: {}
+[21.678016] (-) TimerEvent: {}
+[21.778428] (-) TimerEvent: {}
+[21.878812] (-) TimerEvent: {}
+[21.979209] (-) TimerEvent: {}
+[22.079600] (-) TimerEvent: {}
+[22.179997] (-) TimerEvent: {}
+[22.280382] (-) TimerEvent: {}
+[22.380830] (-) TimerEvent: {}
+[22.481222] (-) TimerEvent: {}
+[22.581613] (-) TimerEvent: {}
+[22.681960] (-) TimerEvent: {}
+[22.782296] (-) TimerEvent: {}
+[22.882625] (-) TimerEvent: {}
+[22.982968] (-) TimerEvent: {}
+[23.083316] (-) TimerEvent: {}
+[23.183640] (-) TimerEvent: {}
+[23.283926] (-) TimerEvent: {}
+[23.384352] (-) TimerEvent: {}
+[23.484653] (-) TimerEvent: {}
+[23.584955] (-) TimerEvent: {}
+[23.685296] (-) TimerEvent: {}
+[23.785627] (-) TimerEvent: {}
+[23.885933] (-) TimerEvent: {}
+[23.986279] (-) TimerEvent: {}
+[24.086629] (-) TimerEvent: {}
+[24.187000] (-) TimerEvent: {}
+[24.287380] (-) TimerEvent: {}
+[24.387688] (-) TimerEvent: {}
+[24.487981] (-) TimerEvent: {}
+[24.588288] (-) TimerEvent: {}
+[24.688621] (-) TimerEvent: {}
+[24.788950] (-) TimerEvent: {}
+[24.889279] (-) TimerEvent: {}
+[24.989585] (-) TimerEvent: {}
+[25.089961] (-) TimerEvent: {}
+[25.190257] (-) TimerEvent: {}
+[25.290573] (-) TimerEvent: {}
+[25.391035] (-) TimerEvent: {}
+[25.491435] (-) TimerEvent: {}
+[25.591834] (-) TimerEvent: {}
+[25.692271] (-) TimerEvent: {}
+[25.792646] (-) TimerEvent: {}
+[25.893019] (-) TimerEvent: {}
+[25.993406] (-) TimerEvent: {}
+[26.093803] (-) TimerEvent: {}
+[26.194252] (-) TimerEvent: {}
+[26.294697] (-) TimerEvent: {}
+[26.395135] (-) TimerEvent: {}
+[26.495516] (-) TimerEvent: {}
+[26.595899] (-) TimerEvent: {}
+[26.696313] (-) TimerEvent: {}
+[26.796724] (-) TimerEvent: {}
+[26.897149] (-) TimerEvent: {}
+[26.997571] (-) TimerEvent: {}
+[27.097968] (-) TimerEvent: {}
+[27.198377] (-) TimerEvent: {}
+[27.298776] (-) TimerEvent: {}
+[27.399210] (-) TimerEvent: {}
+[27.499632] (-) TimerEvent: {}
+[27.600045] (-) TimerEvent: {}
+[27.700486] (-) TimerEvent: {}
+[27.800981] (-) TimerEvent: {}
+[27.901405] (-) TimerEvent: {}
+[28.001830] (-) TimerEvent: {}
+[28.102306] (-) TimerEvent: {}
+[28.202703] (-) TimerEvent: {}
+[28.303080] (-) TimerEvent: {}
+[28.403446] (-) TimerEvent: {}
+[28.503837] (-) TimerEvent: {}
+[28.604197] (-) TimerEvent: {}
+[28.704634] (-) TimerEvent: {}
+[28.805096] (-) TimerEvent: {}
+[28.905510] (-) TimerEvent: {}
+[29.005882] (-) TimerEvent: {}
+[29.106296] (-) TimerEvent: {}
+[29.206714] (-) TimerEvent: {}
+[29.307147] (-) TimerEvent: {}
+[29.407577] (-) TimerEvent: {}
+[29.507988] (-) TimerEvent: {}
+[29.608382] (-) TimerEvent: {}
+[29.708820] (-) TimerEvent: {}
+[29.809225] (-) TimerEvent: {}
+[29.909585] (-) TimerEvent: {}
+[30.010058] (-) TimerEvent: {}
+[30.110486] (-) TimerEvent: {}
+[30.210890] (-) TimerEvent: {}
+[30.311301] (-) TimerEvent: {}
+[30.411689] (-) TimerEvent: {}
+[30.512153] (-) TimerEvent: {}
+[30.612482] (-) TimerEvent: {}
+[30.712862] (-) TimerEvent: {}
+[30.813206] (-) TimerEvent: {}
+[30.913545] (-) TimerEvent: {}
+[31.013977] (-) TimerEvent: {}
+[31.114405] (-) TimerEvent: {}
+[31.214724] (-) TimerEvent: {}
+[31.315084] (-) TimerEvent: {}
+[31.415445] (-) TimerEvent: {}
+[31.515896] (-) TimerEvent: {}
+[31.616333] (-) TimerEvent: {}
+[31.716696] (-) TimerEvent: {}
+[31.817040] (-) TimerEvent: {}
+[31.917455] (-) TimerEvent: {}
+[32.017857] (-) TimerEvent: {}
+[32.118274] (-) TimerEvent: {}
+[32.218643] (-) TimerEvent: {}
+[32.319020] (-) TimerEvent: {}
+[32.419387] (-) TimerEvent: {}
+[32.519759] (-) TimerEvent: {}
+[32.620091] (-) TimerEvent: {}
+[32.720437] (-) TimerEvent: {}
+[32.820854] (-) TimerEvent: {}
+[32.921161] (-) TimerEvent: {}
+[33.021567] (-) TimerEvent: {}
+[33.121992] (-) TimerEvent: {}
+[33.222431] (-) TimerEvent: {}
+[33.322878] (-) TimerEvent: {}
+[33.423277] (-) TimerEvent: {}
+[33.523645] (-) TimerEvent: {}
+[33.624076] (-) TimerEvent: {}
+[33.724438] (-) TimerEvent: {}
+[33.824808] (-) TimerEvent: {}
+[33.925273] (-) TimerEvent: {}
+[34.025658] (-) TimerEvent: {}
+[34.126081] (-) TimerEvent: {}
+[34.226496] (-) TimerEvent: {}
+[34.326873] (-) TimerEvent: {}
+[34.427317] (-) TimerEvent: {}
+[34.527828] (-) TimerEvent: {}
+[34.628301] (-) TimerEvent: {}
+[34.728754] (-) TimerEvent: {}
+[34.829197] (-) TimerEvent: {}
+[34.929609] (-) TimerEvent: {}
+[35.030057] (-) TimerEvent: {}
+[35.130470] (-) TimerEvent: {}
+[35.230909] (-) TimerEvent: {}
+[35.331362] (-) TimerEvent: {}
+[35.431777] (-) TimerEvent: {}
+[35.532214] (-) TimerEvent: {}
+[35.632571] (-) TimerEvent: {}
+[35.732986] (-) TimerEvent: {}
+[35.833450] (-) TimerEvent: {}
+[35.933922] (-) TimerEvent: {}
+[36.034378] (-) TimerEvent: {}
+[36.134814] (-) TimerEvent: {}
+[36.235207] (-) TimerEvent: {}
+[36.335562] (-) TimerEvent: {}
+[36.435979] (-) TimerEvent: {}
+[36.536438] (-) TimerEvent: {}
+[36.636833] (-) TimerEvent: {}
+[36.737218] (-) TimerEvent: {}
+[36.837623] (-) TimerEvent: {}
+[36.937989] (-) TimerEvent: {}
+[37.038384] (-) TimerEvent: {}
+[37.138870] (-) TimerEvent: {}
+[37.239279] (-) TimerEvent: {}
+[37.339682] (-) TimerEvent: {}
+[37.440070] (-) TimerEvent: {}
+[37.540580] (-) TimerEvent: {}
+[37.641025] (-) TimerEvent: {}
+[37.741470] (-) TimerEvent: {}
+[37.841912] (-) TimerEvent: {}
+[37.942291] (-) TimerEvent: {}
+[38.042651] (-) TimerEvent: {}
+[38.143016] (-) TimerEvent: {}
+[38.243403] (-) TimerEvent: {}
+[38.343780] (-) TimerEvent: {}
+[38.444236] (-) TimerEvent: {}
+[38.544674] (-) TimerEvent: {}
+[38.644965] (-) TimerEvent: {}
+[38.745270] (-) TimerEvent: {}
+[38.845584] (-) TimerEvent: {}
+[38.945962] (-) TimerEvent: {}
+[39.046313] (-) TimerEvent: {}
+[39.146610] (-) TimerEvent: {}
+[39.246878] (-) TimerEvent: {}
+[39.347210] (-) TimerEvent: {}
+[39.447553] (-) TimerEvent: {}
+[39.547919] (-) TimerEvent: {}
+[39.648287] (-) TimerEvent: {}
+[39.748580] (-) TimerEvent: {}
+[39.848835] (-) TimerEvent: {}
+[39.949203] (-) TimerEvent: {}
+[40.049520] (-) TimerEvent: {}
+[40.149800] (-) TimerEvent: {}
+[40.250090] (-) TimerEvent: {}
+[40.350386] (-) TimerEvent: {}
+[40.450732] (-) TimerEvent: {}
+[40.551027] (-) TimerEvent: {}
+[40.651392] (-) TimerEvent: {}
+[40.751754] (-) TimerEvent: {}
+[40.852109] (-) TimerEvent: {}
+[40.952443] (-) TimerEvent: {}
+[41.052812] (-) TimerEvent: {}
+[41.153151] (-) TimerEvent: {}
+[41.253448] (-) TimerEvent: {}
+[41.353806] (-) TimerEvent: {}
+[41.454112] (-) TimerEvent: {}
+[41.554385] (-) TimerEvent: {}
+[41.654637] (-) TimerEvent: {}
+[41.754999] (-) TimerEvent: {}
+[41.855330] (-) TimerEvent: {}
+[41.955653] (-) TimerEvent: {}
+[42.056027] (-) TimerEvent: {}
+[42.156333] (-) TimerEvent: {}
+[42.256644] (-) TimerEvent: {}
+[42.356962] (-) TimerEvent: {}
+[42.457282] (-) TimerEvent: {}
+[42.557571] (-) TimerEvent: {}
+[42.657876] (-) TimerEvent: {}
+[42.758201] (-) TimerEvent: {}
+[42.858496] (-) TimerEvent: {}
+[42.958796] (-) TimerEvent: {}
+[43.059132] (-) TimerEvent: {}
+[43.159438] (-) TimerEvent: {}
+[43.259811] (-) TimerEvent: {}
+[43.360132] (-) TimerEvent: {}
+[43.460440] (-) TimerEvent: {}
+[43.560812] (-) TimerEvent: {}
+[43.661117] (-) TimerEvent: {}
+[43.761437] (-) TimerEvent: {}
+[43.861780] (-) TimerEvent: {}
+[43.962162] (-) TimerEvent: {}
+[44.062606] (-) TimerEvent: {}
+[44.163066] (-) TimerEvent: {}
+[44.263505] (-) TimerEvent: {}
+[44.363922] (-) TimerEvent: {}
+[44.464294] (-) TimerEvent: {}
+[44.564673] (-) TimerEvent: {}
+[44.665094] (-) TimerEvent: {}
+[44.765503] (-) TimerEvent: {}
+[44.865891] (-) TimerEvent: {}
+[44.966275] (-) TimerEvent: {}
+[45.066736] (-) TimerEvent: {}
+[45.167143] (-) TimerEvent: {}
+[45.267511] (-) TimerEvent: {}
+[45.367911] (-) TimerEvent: {}
+[45.468301] (-) TimerEvent: {}
+[45.568642] (-) TimerEvent: {}
+[45.669024] (-) TimerEvent: {}
+[45.769466] (-) TimerEvent: {}
+[45.869878] (-) TimerEvent: {}
+[45.970244] (-) TimerEvent: {}
+[46.070594] (-) TimerEvent: {}
+[46.171057] (-) TimerEvent: {}
+[46.271513] (-) TimerEvent: {}
+[46.371921] (-) TimerEvent: {}
+[46.472309] (-) TimerEvent: {}
+[46.572687] (-) TimerEvent: {}
+[46.673015] (-) TimerEvent: {}
+[46.773330] (-) TimerEvent: {}
+[46.873620] (-) TimerEvent: {}
+[46.974022] (-) TimerEvent: {}
+[47.074379] (-) TimerEvent: {}
+[47.174701] (-) TimerEvent: {}
+[47.275045] (-) TimerEvent: {}
+[47.375325] (-) TimerEvent: {}
+[47.475614] (-) TimerEvent: {}
+[47.575926] (-) TimerEvent: {}
+[47.676225] (-) TimerEvent: {}
+[47.776551] (-) TimerEvent: {}
+[47.876865] (-) TimerEvent: {}
+[47.977183] (-) TimerEvent: {}
+[48.077532] (-) TimerEvent: {}
+[48.177954] (-) TimerEvent: {}
+[48.279043] (-) TimerEvent: {}
+[48.379372] (-) TimerEvent: {}
+[48.479728] (-) TimerEvent: {}
+[48.580133] (-) TimerEvent: {}
+[48.680496] (-) TimerEvent: {}
+[48.780951] (-) TimerEvent: {}
+[48.881212] (-) TimerEvent: {}
+[48.981511] (-) TimerEvent: {}
+[49.081741] (-) TimerEvent: {}
+[49.182006] (-) TimerEvent: {}
+[49.282387] (-) TimerEvent: {}
+[49.382751] (-) TimerEvent: {}
+[49.483059] (-) TimerEvent: {}
+[49.583394] (-) TimerEvent: {}
+[49.683727] (-) TimerEvent: {}
+[49.784019] (-) TimerEvent: {}
+[49.884331] (-) TimerEvent: {}
+[49.984631] (-) TimerEvent: {}
+[50.085060] (-) TimerEvent: {}
+[50.185453] (-) TimerEvent: {}
+[50.285880] (-) TimerEvent: {}
+[50.386277] (-) TimerEvent: {}
+[50.486664] (-) TimerEvent: {}
+[50.587145] (-) TimerEvent: {}
+[50.687549] (-) TimerEvent: {}
+[50.787991] (-) TimerEvent: {}
+[50.888419] (-) TimerEvent: {}
+[50.988768] (-) TimerEvent: {}
+[51.089245] (-) TimerEvent: {}
+[51.189629] (-) TimerEvent: {}
+[51.289990] (-) TimerEvent: {}
+[51.390375] (-) TimerEvent: {}
+[51.490804] (-) TimerEvent: {}
+[51.591258] (-) TimerEvent: {}
+[51.691679] (-) TimerEvent: {}
+[51.792111] (-) TimerEvent: {}
+[51.892561] (-) TimerEvent: {}
+[51.992941] (-) TimerEvent: {}
+[52.093334] (-) TimerEvent: {}
+[52.193717] (-) TimerEvent: {}
+[52.294141] (-) TimerEvent: {}
+[52.394518] (-) TimerEvent: {}
+[52.494914] (-) TimerEvent: {}
+[52.551091] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[52.561757] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[52.561942] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[52.595057] (-) TimerEvent: {}
+[52.695509] (-) TimerEvent: {}
+[52.795942] (-) TimerEvent: {}
+[52.896491] (-) TimerEvent: {}
+[52.996874] (-) TimerEvent: {}
+[53.097264] (-) TimerEvent: {}
+[53.197673] (-) TimerEvent: {}
+[53.298041] (-) TimerEvent: {}
+[53.398434] (-) TimerEvent: {}
+[53.498798] (-) TimerEvent: {}
+[53.599201] (-) TimerEvent: {}
+[53.699673] (-) TimerEvent: {}
+[53.800105] (-) TimerEvent: {}
+[53.900502] (-) TimerEvent: {}
+[54.000982] (-) TimerEvent: {}
+[54.011273] (my_robot_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[54.101110] (-) TimerEvent: {}
+[54.201640] (-) TimerEvent: {}
+[54.302304] (-) TimerEvent: {}
+[54.402983] (-) TimerEvent: {}
+[54.503422] (-) TimerEvent: {}
+[54.603804] (-) TimerEvent: {}
+[54.704116] (-) TimerEvent: {}
+[54.804453] (-) TimerEvent: {}
+[54.904781] (-) TimerEvent: {}
+[55.005075] (-) TimerEvent: {}
+[55.105338] (-) TimerEvent: {}
+[55.205606] (-) TimerEvent: {}
+[55.305884] (-) TimerEvent: {}
+[55.406189] (-) TimerEvent: {}
+[55.506557] (-) TimerEvent: {}
+[55.606903] (-) TimerEvent: {}
+[55.640587] (my_robot_pkg) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[55.650180] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[55.670628] (my_robot_pkg) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[55.700847] (my_robot_pkg) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[55.707073] (-) TimerEvent: {}
+[55.807488] (-) TimerEvent: {}
+[55.828582] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[55.841378] (my_robot_pkg) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[55.865223] (my_robot_pkg) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[55.870299] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[55.871358] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[55.907601] (-) TimerEvent: {}
+[56.007863] (-) TimerEvent: {}
+[56.108132] (-) TimerEvent: {}
+[56.208390] (-) TimerEvent: {}
+[56.308656] (-) TimerEvent: {}
+[56.408946] (-) TimerEvent: {}
+[56.509291] (-) TimerEvent: {}
+[56.609592] (-) TimerEvent: {}
+[56.709857] (-) TimerEvent: {}
+[56.810179] (-) TimerEvent: {}
+[56.910468] (-) TimerEvent: {}
+[57.010731] (-) TimerEvent: {}
+[57.111055] (-) TimerEvent: {}
+[57.211320] (-) TimerEvent: {}
+[57.311645] (-) TimerEvent: {}
+[57.412020] (-) TimerEvent: {}
+[57.512416] (-) TimerEvent: {}
+[57.556679] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[57.562997] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[57.575952] (my_robot_pkg) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[57.606719] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[57.609862] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[57.610543] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[57.612593] (-) TimerEvent: {}
+[57.710955] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[57.712733] (-) TimerEvent: {}
+[57.806754] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[57.808186] (my_robot_pkg) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[57.812855] (-) TimerEvent: {}
+[57.913196] (-) TimerEvent: {}
+[58.013607] (-) TimerEvent: {}
+[58.016951] (my_robot_pkg) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[58.018581] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[58.023058] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[58.024145] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[58.024709] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[58.030057] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[58.032431] (my_robot_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[58.113757] (-) TimerEvent: {}
+[58.214196] (-) TimerEvent: {}
+[58.314602] (-) TimerEvent: {}
+[58.415039] (-) TimerEvent: {}
+[58.515454] (-) TimerEvent: {}
+[58.615882] (-) TimerEvent: {}
+[58.716335] (-) TimerEvent: {}
+[58.816757] (-) TimerEvent: {}
+[58.917261] (-) TimerEvent: {}
+[59.017715] (-) TimerEvent: {}
+[59.118059] (-) TimerEvent: {}
+[59.218499] (-) TimerEvent: {}
+[59.318910] (-) TimerEvent: {}
+[59.419315] (-) TimerEvent: {}
+[59.519651] (-) TimerEvent: {}
+[59.620043] (-) TimerEvent: {}
+[59.720453] (-) TimerEvent: {}
+[59.820861] (-) TimerEvent: {}
+[59.921249] (-) TimerEvent: {}
+[60.021716] (-) TimerEvent: {}
+[60.122161] (-) TimerEvent: {}
+[60.222682] (-) TimerEvent: {}
+[60.323202] (-) TimerEvent: {}
+[60.423678] (-) TimerEvent: {}
+[60.524183] (-) TimerEvent: {}
+[60.624582] (-) TimerEvent: {}
+[60.725063] (-) TimerEvent: {}
+[60.825495] (-) TimerEvent: {}
+[60.925984] (-) TimerEvent: {}
+[61.026404] (-) TimerEvent: {}
+[61.126867] (-) TimerEvent: {}
+[61.227269] (-) TimerEvent: {}
+[61.327702] (-) TimerEvent: {}
+[61.428102] (-) TimerEvent: {}
+[61.528468] (-) TimerEvent: {}
+[61.628895] (-) TimerEvent: {}
+[61.729356] (-) TimerEvent: {}
+[61.732090] (my_robot_pkg) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[61.747596] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[61.759974] (my_robot_pkg) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[61.786335] (my_robot_pkg) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[61.794266] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[61.805037] (my_robot_pkg) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[61.829478] (-) TimerEvent: {}
+[61.831932] (my_robot_pkg) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[61.832598] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[61.833241] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[61.834406] (my_robot_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[61.841282] (my_robot_pkg) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[61.841842] (my_robot_pkg) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[61.853299] (my_robot_pkg) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[61.884242] (my_robot_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[61.908677] (my_robot_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[61.929619] (-) TimerEvent: {}
+[62.030001] (-) TimerEvent: {}
+[62.049226] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[62.049602] (my_robot_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nikosamuel__/tubes1_ws/src/my_robot_pkg/include>\n'}
+[62.049736] (my_robot_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[62.050684] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[62.051738] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[62.052763] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[62.054155] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[62.054304] (my_robot_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[62.055309] (my_robot_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[62.057759] (my_robot_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[62.065620] (my_robot_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[62.070171] (my_robot_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/nikosamuel__/tubes1_ws/build/my_robot_pkg\n'}
+[62.088489] (my_robot_pkg) CommandEnded: {'returncode': 0}
+[62.091114] (my_robot_pkg) JobProgress: {'identifier': 'my_robot_pkg', 'progress': 'build'}
+[62.091867] (my_robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg', '--', '-j20', '-l20'], 'cwd': '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikosamuel__'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nikosamuel__'), ('OLDPWD', '/home/nikosamuel__'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikosamuel__'), ('NAME', 'LAPTOP-R96DR2VN'), ('WSL_INTEROP', '/run/WSL/2433_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Niko Samuel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Niko Samuel/AppData/Local/Muse Hub/lib:/mnt/c/Program Files (x86)/Nmap:/snap/bin:/usr/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[62.130152] (-) TimerEvent: {}
+[62.151538] (my_robot_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[62.230294] (-) TimerEvent: {}
+[62.238138] (my_robot_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[62.330443] (-) TimerEvent: {}
+[62.392820] (my_robot_pkg) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[62.402287] (my_robot_pkg) CommandEnded: {'returncode': 0}
+[62.403573] (my_robot_pkg) JobProgress: {'identifier': 'my_robot_pkg', 'progress': 'install'}
+[62.411298] (my_robot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg'], 'cwd': '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikosamuel__'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nikosamuel__'), ('OLDPWD', '/home/nikosamuel__'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikosamuel__'), ('NAME', 'LAPTOP-R96DR2VN'), ('WSL_INTEROP', '/run/WSL/2433_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Niko Samuel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Niko Samuel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Niko Samuel/AppData/Local/Muse Hub/lib:/mnt/c/Program Files (x86)/Nmap:/snap/bin:/usr/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nikosamuel__/tubes1_ws/build/my_robot_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[62.417610] (my_robot_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[62.418588] (my_robot_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[62.420214] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/lib/my_robot_pkg/my_node\n'}
+[62.428096] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//launch/display.launch.py\n'}
+[62.431260] (-) TimerEvent: {}
+[62.435680] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//launch/gazebo.launch.py\n'}
+[62.444058] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//urdf/my_robot.urdf\n'}
+[62.452100] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg//rviz/config.rviz\n'}
+[62.460923] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg\n'}
+[62.468579] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg\n'}
+[62.476051] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh\n'}
+[62.483238] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv\n'}
+[62.490177] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh\n'}
+[62.497157] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv\n'}
+[62.504038] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash\n'}
+[62.510987] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh\n'}
+[62.517768] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh\n'}
+[62.524601] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv\n'}
+[62.531381] (-) TimerEvent: {}
+[62.531802] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv\n'}
+[62.539587] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg\n'}
+[62.546965] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake\n'}
+[62.553945] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake\n'}
+[62.560704] (my_robot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nikosamuel__/tubes1_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml\n'}
+[62.570320] (my_robot_pkg) CommandEnded: {'returncode': 0}
+[62.597381] (my_robot_pkg) JobEnded: {'identifier': 'my_robot_pkg', 'rc': 0}
+[62.597956] (-) EventReactorShutdown: {}
